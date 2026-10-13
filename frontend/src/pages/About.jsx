@@ -18,7 +18,7 @@ const About = () => {
         />
         <div className="flex flex-col justify-center gap-6 md:w-2/4 text-gray-600">
           <p>
-            Forever was born out of a passion for innovation and a desire to
+            SharpFit Hub was born out of a passion for innovation and a desire to
             revolutionize the way people shop online. Our journey began with a
             simple idea: to provide a platform where customers can easily
             discover, explore, and purchase a wide range of products from the
@@ -33,7 +33,7 @@ const About = () => {
           </p>
           <b className="text-gray-800">Our Mission</b>
           <p>
-            Our mission at Forever is to empower customers with choice,
+            Our mission at SharpFit Hub is to empower customers with choice,
             convenience, and confidence. We're dedicated to providing a seamless
             shopping experience that exceeds expectations, from browsing and
             ordering to delivery and beyond. We believe that shopping should be

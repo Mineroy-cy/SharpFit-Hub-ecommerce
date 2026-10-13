@@ -15,11 +15,11 @@ const Footer = () => {
     <div>
       <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
         <div>
-          <img src={assets.logo} alt="" className='mb-5 w-32'/>
+          <img src={assets.logo2} alt="" className='mb-5 w-32'/>
             <p className='w-full md:w-2/3 text-gray-600'>
-              Forever – Your ultimate destination for trendy and affordable shopping. 
+              SharpFit Hub – Your ultimate destination for trendy and affordable shopping. 
               We bring you the best quality products with a seamless online experience, 
-              because great style should last forever.
+              because great style should be sharp forever.
             </p>
         </div>
 
@@ -63,7 +63,7 @@ const Footer = () => {
       <div>
         <hr />
         <p className='py-5 text-sm text-center'>
-          Copyright 2026@ forever.com - All Rights Reserved
+          Copyright 2026@ SharpFit Hub.com - All Rights Reserved
         </p>    
       </div> 
 

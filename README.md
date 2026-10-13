@@ -130,10 +130,20 @@ env
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
+ADMIN_EMAIL=admin@example.com
+ADMIN_PASSWORD=use-a-password-at-least-8-characters
 CLOUDINARY_CLOUD_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
+```
+
+After installing backend dependencies, seed the administrator account configured
+by `ADMIN_EMAIL` and `ADMIN_PASSWORD`:
+
+```bash
+cd backend
+pnpm run seed:admin
 ```
 
 Create .env file in frontend folder:
